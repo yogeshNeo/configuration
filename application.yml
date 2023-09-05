@@ -19,4 +19,10 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
       
-message: This project configuration loads from external config file     
+message: This project configuration loads from external config file
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
