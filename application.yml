@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/orderDb?createDatabaseIfNotExist=true
     username: root
-    password: 123456
+    password: 12345
   cloud:
     config:
       refreshInterval: 10s
@@ -14,13 +14,13 @@ spring:
     hibernate:
       ddl-auto: update
 
-  #kafka:
-   # bootstrap-servers: localhost:9092
-  #  consumer:
-  #    group-id: orders-group
-  #  producer:
-   #   key-serializer: org.apache.kafka.common.serialization.StringSerializer
-  #    value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: orders-group
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
       
 message: Project configuration loads from external config file
 
