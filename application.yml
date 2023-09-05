@@ -3,6 +3,9 @@ spring:
     url: jdbc:mysql://localhost:3306/orderDb?createDatabaseIfNotExist=true
     username: root
     password: 12345
+  cloud:
+    config:
+      refreshInterval: 10s
 
   jpa:
     properties:
