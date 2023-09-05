@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/orderDb?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/orderTestDb?createDatabaseIfNotExist=true
     username: root
     password: 12345
   cloud:
@@ -22,7 +22,7 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
       
-message: Project configuration loads from external config file
+message: Project configuration loads from external config file for orderTestDb
 
 management:
   endpoints:
