@@ -3,7 +3,7 @@ spring:
     activate:
       on-profile: dev
   datasource:
-    url: jdbc:mysql://192.168.64.3:13306/orderDevDb?createDatabaseIfNotExist=true&enabledTLSProtocols=TLSv1.2&autoReconnect=true&useSSL=false
+    url: jdbc:mysql://127.0.0.1:13306/orderDevDb?createDatabaseIfNotExist=true&enabledTLSProtocols=TLSv1.2&autoReconnect=true&useSSL=false
     username: user
     password: 12345
   cloud:
