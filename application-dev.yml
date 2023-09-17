@@ -4,7 +4,7 @@ spring:
       on-profile: dev
   datasource:
     url: jdbc:mysql://192.168.48.3:13306/orderDevDb?createDatabaseIfNotExist=true&enabledTLSProtocols=TLSv1.2&autoReconnect=true&useSSL=false
-    username: root
+    username: user
     password: 12345
   cloud:
     config:
