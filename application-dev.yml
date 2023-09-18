@@ -15,7 +15,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
     hibernate:
-      ddl-auto: update
+      ddl-auto: updatehttps://github.com/yogeshNeo/configuration/blob/master/application-dev.yml
 
   kafka:
     bootstrap-servers: localhost:9092
@@ -33,5 +33,5 @@ management:
       exposure:
         include: "*"
 redis:
-  ip: redis:6379
+  ip: redis:7000, redis:7001, redis:7002, redis:7003, redis:70004
   orderCacheExpireIn: 3600
