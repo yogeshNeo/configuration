@@ -33,5 +33,5 @@ management:
       exposure:
         include: "*"
 redis:
-  ip: redis:7000
+  ip: redis:6379
   orderCacheExpireIn: 3600
