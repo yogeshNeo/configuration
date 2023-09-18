@@ -15,7 +15,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
     hibernate:
-      ddl-auto: updatehttps://github.com/yogeshNeo/configuration/blob/master/application-dev.yml
+      ddl-auto: update
 
   kafka:
     bootstrap-servers: localhost:9092
