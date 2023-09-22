@@ -33,5 +33,5 @@ management:
       exposure:
         include: "*"
 redis:
-  ip: eurekaserver-redis-node-1-1:7000
+  ip: 192.168.64.2:7000
   orderCacheExpireIn: 3600
