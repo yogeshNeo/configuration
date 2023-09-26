@@ -33,5 +33,5 @@ management:
       exposure:
         include: "*"
 redis:
-  ip: 10.103.0.1:7000, 10.103.0.2:7001, 10.103.0.3:7002, 10.103.0.4:7003, 10.103.0.5:7004, 10.103.0.6:7005
+  ip: redis-node-1:7000, redis-node-2:7001, redis-node-3:7002, redis-node-4:7003, redis-node-5:7004, redis-node-6:7005
   orderCacheExpireIn: 3600
