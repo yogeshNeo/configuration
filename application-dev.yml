@@ -33,5 +33,5 @@ management:
       exposure:
         include: "*"
 redis:
-  ip: redis-node-1:7000, redis-node-2:7001, redis-node-3:7002
+  ip: 182.17.0.2:7000, 182.17.0.3:7001, 182.17.0.4:7002, 182.17.0.5:7003, 182.17.0.6:7004, 182.17.0.7:7005
   orderCacheExpireIn: 3600
